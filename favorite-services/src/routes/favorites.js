@@ -8,6 +8,4 @@ router.post('/', postFavorites)
 router.delete('/', deleteFavorites)
 
 
-
-
 module.exports = router

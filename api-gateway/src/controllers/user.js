@@ -5,7 +5,6 @@ const Response = require('../utils/Response')
 const authMiddlewares = require('../middlewares/auth')
 
 
-
 const register = async (req, res) => {
     const checkUser = await User.findOne({ email: req.body.email })
 
