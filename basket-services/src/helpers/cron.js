@@ -1,4 +1,3 @@
-const deleteUnverifiedAccount = require('./deleteUnverifiedAccount')
 const cron = require('node-cron')
 
 const job = () => {

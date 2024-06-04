@@ -44,6 +44,6 @@ const errorHandler = require('./src/middlewares/errorHandler')
 app.use(errorHandler)
 
 
-app.listen(process.env.PORT || 5003, () => {
-    console.log(`Server is Running on port ${process.env.PORT || 5003}`)
+app.listen(process.env.PORT || 5002, () => {
+    console.log(`Server is Running on port ${process.env.PORT || 5002}`)
 })
